@@ -28,7 +28,6 @@ yargs.command({
         console.log('Body: ' + argv.body)
     }
 })
-
 // Create remove command
 yargs.command({
     command: 'remove',
@@ -37,7 +36,6 @@ yargs.command({
         console.log('Removing the note')
     }
 })
-
 // Create list command
 yargs.command({
     command: 'list',
@@ -46,7 +44,6 @@ yargs.command({
         console.log('listing all notes')
     }
 })
-
 // Create read command
 yargs.command({
     command: 'read',
